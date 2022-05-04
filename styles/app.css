@@ -1,14 +1,68 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body {
     font-family: "Nunito Regular";
 }
-.content {
-    background-color: #ccc;
-    width: 100%;
-    height: 100px;
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ========================== start header ======================= */
+
+header {
+    background-image: url("../images/headerBG.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.logo-wrapper {
+
+}
+
+.logo-img {
+
+}
+
+.main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item {
+    margin: 0px 25px;
+}
+
+.menu-link {
+
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #93A5FF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Nunito Bold';
+}
+
+.login-btn span {
+    margin-left: 10px;
 }
