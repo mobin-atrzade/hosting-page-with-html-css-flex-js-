@@ -55,6 +55,15 @@
     color: #fff !important;
 }
 
+.btn-primary {
+    border: none;
+    outline: none;
+    padding: 14px 15px;
+    color: #ffffff;
+    background-color: #93A5FF;
+    border-radius: 5px;
+}
+
 .align-items-center {
     align-items: center !important;
 }
@@ -66,6 +75,7 @@
 .justify-content-between {
     justify-content: space-between !important;
 }
+
 
 @media only screen and (min-width: 576px) {
     .d-sm-none {

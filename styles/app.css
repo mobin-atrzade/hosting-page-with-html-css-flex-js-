@@ -45,6 +45,7 @@ header {
     padding: 0;
     margin: 0;
     display: flex;
+    z-index: 999;
 }
 
 .menu-item {
@@ -73,16 +74,58 @@ header {
     display: none;
 }
 
+/* ====================== Header Content =========================== */
+
+.header-content {
+    margin-top: 80px;
+}
 
 
+.header-title {
+    font-family: "Roboto";
+    font-size: 40px;
+}
 
+.header-caption {
+    font-size: 21px;
+    opacity: 0.8;
+}
 
+.domain {
 
+}
 
+.header-txt {
+    background-color: #384170;
+    color: #fff;
+    padding: 14px 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 2px;
+    max-width: 290px;
+    width: 100%;
+}
 
+.header-txt::placeholder {
+    color: #fff;
+}
 
+.header-domains {
+    background-color: #384170;
+    color: #fff;
+    padding: 11px 20px 11px 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
+.header-btn {
+    margin-left: 25px;
+    cursor: pointer;
+}
 
+.flex-wrapper {
+    flex-basis: 380px;
+}
 
-
+/* ================ End Header =============== */
 
