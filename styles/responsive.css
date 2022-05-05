@@ -1,0 +1,25 @@
+@media only screen and (max-width: 992px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .main-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        background-color: #7381c3;
+        width: 250px;
+        transition: 0.3s;
+    }
+
+    .menu-item {
+        margin: 25px 15px;
+    }
+
+    .login-btn {
+        display: block;
+        text-align: center;
+    }
+}

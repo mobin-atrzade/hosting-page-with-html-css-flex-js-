@@ -31,3 +31,16 @@
     font-weight: normal;
     src: url('../fonts/Nunito-Black.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Nunito ExtraBold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Nunito-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}

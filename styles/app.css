@@ -20,8 +20,8 @@ a {
 header {
     background-image: url("../images/headerBG.png");
     background-size: cover;
-    background-position: center center;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh;
 }
 
@@ -66,3 +66,23 @@ header {
 .login-btn span {
     margin-left: 10px;
 }
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
