@@ -22,14 +22,14 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
+    height: 757px;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 35px 0;
 }
 
 .logo-wrapper {
@@ -77,7 +77,7 @@ header {
 /* ====================== Header Content =========================== */
 
 .header-content {
-    margin-top: 80px;
+    margin-top: 45px;
 }
 
 
@@ -131,12 +131,16 @@ header {
     font-family: "Nunito ExtraBold";
     color: #2e2e2e;
     margin: 0;
+    text-align: center;
+    font-size: 30px;
 }
 
 .section-caption {
     color: #2e2e2e;
     margin-top: 10px;
     opacity: 0.8;
+    text-align: center;
+    font-size: 22px;
 }
 
 
@@ -157,7 +161,8 @@ header {
 }
 
 .service img {
-    margin-right: 20px;
+    margin-right: 22px;
+    width: 60px;
 }
 
 .service-content {
@@ -172,7 +177,7 @@ header {
 .service-content p {
     opacity: 0.8;
     color: #2e2e2e;
-    line-height: 25px;
+    line-height: 28px;
     font-size: 17px;
     max-width: 430px;
 }
@@ -186,6 +191,10 @@ header {
 .start {
     background-color: #F7F8ff;
     padding: 70px 0;
+}
+
+.start .row {
+    margin-top: 80px;
 }
 
 .start-box {

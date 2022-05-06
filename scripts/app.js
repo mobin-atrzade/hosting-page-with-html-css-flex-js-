@@ -6,7 +6,7 @@ icon.addEventListener("click", function () {
         menu.style.left = 0;
         icon.classList = "fa fa-times menu-icon";
     } else {
-        menu.style.left = "-250px";
+        menu.style.left = "-270px";
         icon.classList = "fa fa-bars menu-icon";
     }
 })
