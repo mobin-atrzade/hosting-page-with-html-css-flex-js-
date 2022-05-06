@@ -33,6 +33,17 @@
         max-width: 100%;
     }
 
+    .service-col-1 {
+        order: 1;
+    }
+
+    .service-col-2 {
+        order: 0;
+    }
+
+    .services-img {
+        margin-bottom: 35px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -53,7 +64,11 @@
     .header-title {
         font-size: 34px;
     }
+
     .header-caption {
         font-size: 17px;
+    }
+    .start-img-fix {
+        max-width: 170px;
     }
 }
