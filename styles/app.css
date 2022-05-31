@@ -257,3 +257,13 @@ header {
     top: 15px;
     max-width: 220px;
 }
+
+/* ================ plans Section  =============== */
+
+.plans {
+    padding: 70px 0;
+}
+
+.plans .row {
+    margin-top: 80px;
+}
