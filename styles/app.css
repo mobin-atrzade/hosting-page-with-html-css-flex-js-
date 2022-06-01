@@ -267,3 +267,67 @@ header {
 .plans .row {
     margin-top: 80px;
 }
+
+.plan {
+    color: #2e2e2e;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.plan:hover .plan-bottom {
+    height: 239px;
+}
+
+.plan:hover .plan-top {
+    border-top: 8px solid #93A5FF;
+}
+
+.plan-top {
+    padding: 60px 30px 30px 30px;
+    transition: 0.3s;
+    border-top: 8px solid transparent;
+}
+
+.plan-img {
+
+}
+
+.plan-title {
+    font-family: "Nunito Bold";
+}
+
+.plans-description {
+    line-height: 28px;
+}
+
+.plan-bottom {
+    border-top: 1px solid #EBEBEB;
+    padding: 30px 0px;
+    transition: 0.3s;
+    height: 128px;
+    overflow: hidden;
+}
+
+.plan-price {
+    font-size: 30px;
+}
+
+.plan-price small {
+    font-size: 14px;
+}
+
+.plan-btn {
+    font-family: "Nunito Bold";
+    color: #93A5FF;
+    background-color: #F7F8ff;
+    display: block;
+    width: 185px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.plan-btn i {
+    margin-left: 10px;
+}
