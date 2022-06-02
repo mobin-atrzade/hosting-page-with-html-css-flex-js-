@@ -23,6 +23,10 @@
     margin-left: 0 !important;
 }
 
+.mt-80 {
+    margin-top: 80px !important;
+}
+
 .p-0 {
     padding: 0 !important;
 }
@@ -71,6 +75,7 @@
     background-color: #93A5FF;
     border-radius: 5px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .align-items-center {

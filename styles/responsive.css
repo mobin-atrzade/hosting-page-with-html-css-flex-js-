@@ -15,8 +15,7 @@
     }
 
     .menu-item {
-        margin: 25px 15px;
-        margin-right: 15px !important;
+        margin: 25px 15px !important;
     }
 
     .login-btn {
@@ -44,6 +43,10 @@
 
     .services-img {
         margin-bottom: 35px;
+    }
+
+    .plans {
+        height: auto;
     }
 }
 
@@ -80,5 +83,13 @@
 
     .start-img-fix {
         max-width: 150px;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+
+    .section-caption {
+        font-size: 17px;
     }
 }

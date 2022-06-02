@@ -151,10 +151,6 @@ header {
     padding: 50px 0;
 }
 
-.services div.row {
-    margin-top: 80px;
-}
-
 .service {
     align-items: flex-start;
     margin-top: 45px;
@@ -193,10 +189,6 @@ header {
     padding: 70px 0;
 }
 
-.start .row {
-    margin-top: 80px;
-}
-
 .start-box {
     border-radius: 5px;
     padding: 30px;
@@ -232,6 +224,7 @@ header {
     margin-top: 38px;
     font-family: "Nunito Bold";
     color: #fff;
+    text-transform: uppercase;
 }
 
 .start-discription {
@@ -245,6 +238,7 @@ header {
     font-family: "Nunito Bold";
     margin-left: auto;
     display: block;
+    width: 155px;
 }
 
 .start-box i {
@@ -262,10 +256,7 @@ header {
 
 .plans {
     padding: 70px 0;
-}
-
-.plans .row {
-    margin-top: 80px;
+    height: 810px;
 }
 
 .plan {
@@ -275,6 +266,7 @@ header {
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 25px;
+    user-select: none;
 }
 
 .plan:hover .plan-bottom {
@@ -339,7 +331,7 @@ header {
 
 .clients-logo {
     list-style-type: none;
-    padding: 50px 0 30px 0;
+    padding: 0px 0 30px 0;
     text-align: center;
     flex-wrap: wrap;
 }
