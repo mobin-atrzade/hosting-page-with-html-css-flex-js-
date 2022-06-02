@@ -59,6 +59,14 @@
     .header-content {
         margin-top: 0;
     }
+
+    .plan-bottom {
+        height: 239px;
+    }
+
+    .plan-top {
+        border-top: 8px solid #93A5FF;
+    }
 }
 
 @media only screen and (max-width: 576px) {
