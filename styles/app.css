@@ -361,7 +361,7 @@ header {
 
 
 .comment {
-
+    padding: 0 60px;
 }
 
 .comment-img {
@@ -392,15 +392,16 @@ header {
 
 .comments-img {
     position: absolute;
+    width: 160px;
 }
 
 .comments-img-1 {
-    top: 0;
+    top: -30px;
     right: 0;
 }
 
 .comments-img-2 {
-    bottom: 0;
+    bottom: -40px;
     left: 0;
 }
 
@@ -413,4 +414,37 @@ header {
     background-color: #93A5FF !important;
     transform: scale(1.6);
     opacity: 1;
+}
+
+.owl-prev, .owl-next {
+    outline: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.owl-prev {
+    left: -25px;
+}
+
+.owl-next {
+    right: -25px;
+}
+
+.owl-prev span, .owl-next span {
+    font-size: 50px !important;
+    color: #889cff !important;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: rgba(147, 165, 225, 0.15) !important;
+    border-radius: 5px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: 0;
+    color: 0;
+    text-decoration: none;
 }
