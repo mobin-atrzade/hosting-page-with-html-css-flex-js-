@@ -365,7 +365,7 @@ header {
 }
 
 .comment-img {
-    width: 85px;
+    width: 85px !important;
     margin-right: 15px;
 }
 
@@ -402,4 +402,15 @@ header {
 .comments-img-2 {
     bottom: 0;
     left: 0;
+}
+
+.owl-dots .owl-dot span {
+    background-color: #93A5FF !important;
+    opacity: 0.4;
+}
+
+.owl-dots .owl-dot.active span {
+    background-color: #93A5FF !important;
+    transform: scale(1.6);
+    opacity: 1;
 }

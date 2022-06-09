@@ -10,3 +10,19 @@ icon.addEventListener("click", function () {
         icon.classList = "fa fa-bars menu-icon";
     }
 })
+
+$('.owl-carousel').owlCarousel({
+    // loop: true,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false
+        },
+        768: {
+            items: 2,
+            nav: true
+        }
+    }
+})
