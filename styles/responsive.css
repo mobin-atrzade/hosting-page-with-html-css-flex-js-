@@ -92,4 +92,11 @@
     .section-caption {
         font-size: 17px;
     }
+    .comment {
+        display: block !important;
+        text-align: center;
+    }
+    .comment-img {
+        margin: 16px auto;
+    }
 }
