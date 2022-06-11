@@ -447,3 +447,52 @@ header {
   margin: 0 auto;
   width: 152px;
 }
+
+/* ==================== End main ===================== */
+
+/* ==================== Start Footer ===================== */
+
+.footer {
+  background-image: url("../images/footer_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 140px 0 80px 0;
+}
+
+.footer-list {
+}
+
+.footer-list-title {
+  text-transform: uppercase;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer-menu-item {
+  margin-bottom: 8px;
+}
+
+.footer-menu-link {
+}
+
+.accepts {
+}
+
+.accespt {
+  background-color: #2d355d;
+  border-radius: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  width: 70px;
+}
+
+.accespt img {
+  width: 65%;
+}
