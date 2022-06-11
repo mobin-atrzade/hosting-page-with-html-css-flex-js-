@@ -98,6 +98,10 @@
   justify-content: space-between !important;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 @media only screen and (min-width: 576px) {
   .d-sm-none {
     display: none !important;

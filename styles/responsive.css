@@ -105,4 +105,10 @@
   .accepts {
     justify-content: center;
   }
+  .footer-bottom {
+    justify-content: center !important;
+  }
+  .social {
+    justify-content: center !important;
+  }
 }
