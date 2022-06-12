@@ -1,37 +1,37 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-  font-family: "Nunito Regular";
+    font-family: "Nunito Regular";
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* ========================== start header ======================= */
 
 header {
-  background-image: url("../images/headerBG.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 757px;
+    background-image: url("../images/headerBG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 757px;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
 }
 
 .logo-wrapper {
@@ -41,411 +41,411 @@ header {
 }
 
 .main-menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  z-index: 999;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    z-index: 999;
 }
 
 .menu-item {
-  margin: 0px 25px;
+    margin: 0px 25px;
 }
 
 .menu-link {
 }
 
 .login-btn {
-  background-color: #fff;
-  color: #93a5ff;
-  padding: 10px 15px;
-  border-radius: 5px;
-  font-family: "Nunito Bold";
+    background-color: #fff;
+    color: #93a5ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: "Nunito Bold";
 }
 
 .login-btn span {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .menu-icon {
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
 }
 
 /* ====================== Header Content =========================== */
 
 .header-content {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
 .header-title {
-  font-family: "Roboto";
-  font-size: 40px;
+    font-family: "Roboto";
+    font-size: 40px;
 }
 
 .header-caption {
-  font-size: 21px;
-  opacity: 0.8;
+    font-size: 21px;
+    opacity: 0.8;
 }
 
 .header-txt {
-  background-color: #384170;
-  color: #fff;
-  padding: 14px 15px;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-  margin-right: 2px;
-  max-width: 290px;
-  width: 100%;
+    background-color: #384170;
+    color: #fff;
+    padding: 14px 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: 2px;
+    max-width: 290px;
+    width: 100%;
 }
 
 .header-txt::placeholder {
-  color: #fff;
+    color: #fff;
 }
 
 .header-domains {
-  background-color: #384170;
-  color: #fff;
-  padding: 11px 20px 11px 10px;
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
+    background-color: #384170;
+    color: #fff;
+    padding: 11px 20px 11px 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .header-btn {
-  margin-left: 25px;
-  cursor: pointer;
+    margin-left: 25px;
+    cursor: pointer;
 }
 
 .flex-wrapper {
-  flex-basis: 380px;
+    flex-basis: 380px;
 }
 
 /* ==================== End Header ==================== */
 
 /* ==================== Start main ===================== */
 .section-title {
-  font-family: "Nunito ExtraBold";
-  color: #2e2e2e;
-  margin: 0;
-  text-align: center;
-  font-size: 30px;
+    font-family: "Nunito ExtraBold";
+    color: #2e2e2e;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
 }
 
 .section-caption {
-  color: #2e2e2e;
-  margin-top: 10px;
-  opacity: 0.8;
-  text-align: center;
-  font-size: 22px;
+    color: #2e2e2e;
+    margin-top: 10px;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 22px;
 }
 
 /* ================ Services Section  =============== */
 
 .services {
-  text-align: center;
+    text-align: center;
 }
 
 .service {
-  align-items: flex-start;
-  margin-top: 45px;
+    align-items: flex-start;
+    margin-top: 45px;
 }
 
 .service img {
-  margin-right: 22px;
-  width: 60px;
+    margin-right: 22px;
+    width: 60px;
 }
 
 .service-content {
-  text-align: left;
+    text-align: left;
 }
 
 .service-content h3 {
-  margin-bottom: 15px;
-  font-family: "Nunito Bold";
+    margin-bottom: 15px;
+    font-family: "Nunito Bold";
 }
 
 .service-content p {
-  opacity: 0.8;
-  color: #2e2e2e;
-  line-height: 28px;
-  font-size: 17px;
-  max-width: 430px;
+    opacity: 0.8;
+    color: #2e2e2e;
+    line-height: 28px;
+    font-size: 17px;
+    max-width: 430px;
 }
 
 /* ================ Start Section  =============== */
 
 .start .row .col-12 {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .start {
-  background-color: #f7f8ff;
+    background-color: #f7f8ff;
 }
 
 .start-box {
-  border-radius: 5px;
-  padding: 30px;
-  position: relative;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
 }
 
 .start-1 {
-  background-color: #93a5ff;
+    background-color: #93a5ff;
 }
 
 .start-2 {
-  background-color: #424d83;
+    background-color: #424d83;
 }
 
 .start-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70px;
-  height: 70px;
-  border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
 }
 
 .start-logo1 {
-  background-color: #424d83;
+    background-color: #424d83;
 }
 
 .start-logo2 {
-  background-color: #93a5ff;
+    background-color: #93a5ff;
 }
 
 .start-title {
-  margin-top: 38px;
-  font-family: "Nunito Bold";
-  color: #fff;
-  text-transform: uppercase;
+    margin-top: 38px;
+    font-family: "Nunito Bold";
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .start-discription {
-  color: #fff;
-  line-height: 28px;
+    color: #fff;
+    line-height: 28px;
 }
 
 .start-btn {
-  background-color: #fff;
-  color: #93a5ff;
-  font-family: "Nunito Bold";
-  margin-left: auto;
-  display: block;
-  width: 155px;
+    background-color: #fff;
+    color: #93a5ff;
+    font-family: "Nunito Bold";
+    margin-left: auto;
+    display: block;
+    width: 155px;
 }
 
 .start-box i {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .start-img-fix {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-  max-width: 220px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    max-width: 220px;
 }
 
 /* ================ plans Section  =============== */
 
 .plans {
-  height: 810px;
+    height: 810px;
 }
 
 .plan {
-  color: #2e2e2e;
-  text-align: center;
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
-  border-radius: 5px;
-  overflow: hidden;
-  margin-bottom: 25px;
-  user-select: none;
+    color: #2e2e2e;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    user-select: none;
 }
 
 .plan:hover .plan-bottom {
-  height: 239px;
+    height: 239px;
 }
 
 .plan:hover .plan-top {
-  border-top: 8px solid #93a5ff;
+    border-top: 8px solid #93a5ff;
 }
 
 .plan-top {
-  padding: 60px 30px 0px 30px;
-  transition: 0.3s;
-  border-top: 8px solid transparent;
-  height: 320px;
+    padding: 60px 30px 0px 30px;
+    transition: 0.3s;
+    border-top: 8px solid transparent;
+    height: 320px;
 }
 
 .plan-img {
 }
 
 .plan-title {
-  font-family: "Nunito Bold";
+    font-family: "Nunito Bold";
 }
 
 .plans-description {
-  line-height: 28px;
+    line-height: 28px;
 }
 
 .plan-bottom {
-  border-top: 1px solid #ebebeb;
-  padding: 30px 0px;
-  transition: 0.3s;
-  height: 128px;
-  overflow: hidden;
+    border-top: 1px solid #ebebeb;
+    padding: 30px 0px;
+    transition: 0.3s;
+    height: 128px;
+    overflow: hidden;
 }
 
 .plan-price {
-  font-size: 30px;
-  margin-top: 15px;
+    font-size: 30px;
+    margin-top: 15px;
 }
 
 .plan-price small {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .plan-btn {
-  font-family: "Nunito Bold";
-  color: #93a5ff;
-  background-color: #f7f8ff;
-  display: block;
-  width: 185px;
-  margin-top: 40px;
-  margin-bottom: 25px;
+    font-family: "Nunito Bold";
+    color: #93a5ff;
+    background-color: #f7f8ff;
+    display: block;
+    width: 185px;
+    margin-top: 40px;
+    margin-bottom: 25px;
 }
 
 .plan-btn i {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 /* ================ Comments Section  =============== */
 
 .comments {
-  background-color: #f7f8ff;
-  position: relative;
+    background-color: #f7f8ff;
+    position: relative;
 }
 
 .comment {
-  padding: 0 60px;
+    padding: 0 60px;
 }
 
 .comment-img {
-  width: 85px !important;
-  height: 85px !important;
-  margin-right: 15px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
+    width: 85px !important;
+    height: 85px !important;
+    margin-right: 15px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16);
 }
 
 .comment-content {
 }
 
 .comment-rating i {
-  color: #fad568;
-  margin-right: 3px;
+    color: #fad568;
+    margin-right: 3px;
 }
 
 .comment-body {
-  font-family: "Nunito italic";
-  color: #2e2e2e;
-  line-height: 28px;
+    font-family: "Nunito italic";
+    color: #2e2e2e;
+    line-height: 28px;
 }
 
 .comment-person {
-  font-family: "Nunito Bold";
-  color: #2e2e2e;
+    font-family: "Nunito Bold";
+    color: #2e2e2e;
 }
 
 .comment-person::before {
-  content: "-";
-  margin-right: 5px;
+    content: "-";
+    margin-right: 5px;
 }
 
 .comments-img {
-  position: absolute;
-  width: 160px;
+    position: absolute;
+    width: 160px;
 }
 
 .comments-img-1 {
-  top: -30px;
-  right: 0;
+    top: -30px;
+    right: 0;
 }
 
 .comments-img-2 {
-  bottom: -40px;
-  left: 0;
+    bottom: -40px;
+    left: 0;
 }
 
 .owl-dots .owl-dot span {
-  background-color: #93a5ff !important;
-  opacity: 0.4;
+    background-color: #93a5ff !important;
+    opacity: 0.4;
 }
 
 .owl-dots .owl-dot.active span {
-  transform: scale(1.6);
-  opacity: 1;
-  box-shadow: 0 0px 10px rgba(147, 165, 255, 0.45);
+    transform: scale(1.6);
+    opacity: 1;
+    box-shadow: 0 0px 10px rgba(147, 165, 255, 0.45);
 }
 
 .owl-prev,
 .owl-next {
-  outline: none;
-  position: absolute;
-  top: 0;
-  bottom: 0;
+    outline: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .owl-prev {
-  left: -25px;
+    left: -20px;
 }
 
 .owl-next {
-  right: -25px;
+    right: -20px;
 }
 
 .owl-prev span,
 .owl-next span {
-  font-size: 34px !important;
-  color: #889cff !important;
-  width: 40px;
-  height: 40px;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  background: rgba(147, 165, 225, 0.15) !important;
-  border-radius: 5px;
+    font-size: 34px !important;
+    color: #889cff !important;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: rgba(147, 165, 225, 0.15) !important;
+    border-radius: 5px;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
-  background: 0;
-  color: 0;
-  text-decoration: none;
+    background: 0;
+    color: 0;
+    text-decoration: none;
 }
 
 /* ================ Clients Section  =============== */
 
 .clients-logo {
-  list-style-type: none;
-  padding: 0px 0 30px 0;
-  text-align: center;
-  flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px 0 30px 0;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .clients-logo li {
-  flex-grow: 1;
-  margin-bottom: 20px;
+    flex-grow: 1;
+    margin-bottom: 20px;
 }
 
 .clients-logo li img {
-  width: 160px;
+    width: 160px;
 }
 
 .btn-clients {
-  display: block;
-  margin: 0 auto;
-  width: 152px;
+    display: block;
+    margin: 0 auto;
+    width: 152px;
 }
 
 /* ==================== End main ===================== */
@@ -453,27 +453,36 @@ header {
 /* ==================== Start Footer ===================== */
 
 .footer {
-  background-image: url("../images/footer_bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  padding: 140px 0 80px 0;
+    background-image: url("../images/footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #fff;
+    padding: 140px 0 80px 0;
+}
+
+.footer p {
+    line-height: 28px;
+}
+
+.footer .footer-bottom > div:last-child > a {
+    line-height: 28px;
 }
 
 .footer-list {
 }
 
 .footer-list-title {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .footer-menu {
-  list-style-type: none;
-  padding-left: 0px;
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 .footer-menu-item {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .footer-menu-link {
@@ -483,31 +492,46 @@ header {
 }
 
 .accespt {
-  background-color: #2d355d;
-  border-radius: 5px;
-  margin-right: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 5px;
-  width: 70px;
+    background-color: #2d355d;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    width: 70px;
+    height: 35px;
+}
+
+.accept-img-35 {
+    width: 35% !important;
 }
 
 .accespt img {
-  width: 65%;
+    width: 65%;
 }
 
 .footer-bottom {
-  margin-top: 35px;
+    margin-top: 35px;
+    align-items: end;
 }
+
 .social {
-  justify-content: flex-end;
-  margin-bottom: 15px;
+    justify-content: flex-end;
+    margin-bottom: 15px;
 }
+
 .social-item {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .footer-logo {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.br-1::after {
+    content: " ";
+    border-right: 1px solid #ffffff;
+    margin: 0 15px;
 }
