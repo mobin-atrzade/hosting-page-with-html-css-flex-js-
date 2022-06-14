@@ -61,6 +61,12 @@ header {
     padding: 10px 15px;
     border-radius: 5px;
     font-family: "Nunito Bold";
+    transition: all 0.3s;
+}
+
+.login-btn:hover {
+    color: #ffffff;
+    background-color: #93a5ff;
 }
 
 .login-btn span {
@@ -115,6 +121,11 @@ header {
 .header-btn {
     margin-left: 25px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-btn:hover {
+    background-color: #a0aeff;
 }
 
 .flex-wrapper {
@@ -233,6 +244,15 @@ header {
     margin-left: auto;
     display: block;
     width: 155px;
+    padding: 14px 0 14px 15px;
+}
+
+.start-btn i {
+    transition: 0.3s;
+}
+
+.start-btn:hover i {
+    margin-left: 15px;
 }
 
 .start-box i {
@@ -313,10 +333,23 @@ header {
     width: 185px;
     margin-top: 40px;
     margin-bottom: 25px;
+    padding: 14px 0 14px 15px;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.plan-btn:hover {
+    color: #f7f8ff;
+    background-color: #93a5ff;
+}
+
+.plan-btn:hover i {
+    margin-left: 15px;
 }
 
 .plan-btn i {
     margin-left: 10px;
+    transition: all 0.3s;
 }
 
 /* ================ Comments Section  =============== */
@@ -446,6 +479,11 @@ header {
     display: block;
     margin: 0 auto;
     width: 152px;
+    transition: all 0.3s;
+}
+
+.btn-clients:hover {
+    background-color: #a0aeff;
 }
 
 /* ==================== End main ===================== */
@@ -458,11 +496,15 @@ header {
     background-repeat: no-repeat;
     background-position: center top;
     color: #fff;
-    padding: 140px 0 80px 0;
+    padding: 140px 0 40px 0;
 }
 
 .footer p {
     line-height: 28px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 .footer .footer-bottom > div:last-child > a {
@@ -513,7 +555,7 @@ header {
 }
 
 .footer-bottom {
-    margin-top: 35px;
+    margin-top: 60px;
     align-items: end;
 }
 
